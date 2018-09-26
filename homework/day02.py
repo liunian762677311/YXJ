@@ -138,20 +138,21 @@ else:
 	print("p1")
 '''
 
-'''
+
 #判断天数
 m,y=eval(input(">>"))
+
 if(m==2):
-	if((y%4==0&y%100!=0)|y%400==0):
+	if((y%4==0&y%100!=0)|(y%400==0)):
 		print(29)
 	else:
 		print(28)
 else:
-	if(m==4|m==6|m==9|m==11):
+	if((m==4)|(m==6)|(m==9)|(m==11)):
 		print(30)
 	else:
 		print(31)
-'''
+m=0
 
 '''
 #猜硬币
@@ -192,12 +193,13 @@ else:
 	print("NO")
 '''
 
+'''
 #计算三角形周长
 q,w,e=eval(input(">>"))
 if((q+w<=e)|(q+e<=w)|(w+e<=q)):
 	print("Error")
 else:
 	print(q+w+e)
-
+'''
 
 
