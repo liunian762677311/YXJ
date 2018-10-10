@@ -22,7 +22,6 @@ p=m/f
 print(zs,fs,p)
 '''
 
-'''
 #计算学费
 p=10000
 s=10000
@@ -30,7 +29,6 @@ for i in range(10):
 	p*=1+0.05
 	s+=p
 print(p,s)
-'''
 
 '''
 #统计求均值
@@ -141,7 +139,7 @@ for i in range(1,10001):
 		print(s)
 '''
 
-
+'''
 #组合
 f=0
 for i in range(1,8):
@@ -149,7 +147,7 @@ for i in range(1,8):
 		print(i,' ',j)
 		f+=1
 print(f)
-		
+'''		
 
 
 
